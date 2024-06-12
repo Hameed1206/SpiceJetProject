@@ -1,34 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
-    <parameter name="emailIV" value="testinghameed@gmail.com"/>
-    <parameter name="phoneNoV" value="9363573335"/>
-    <parameter name="passwordV" value="Hameed@12"/>
-    <parameter name="phoneNoIV" value="9677160111"/>
-    <parameter name="emailV" value="testingmehameed@gmail.com"/>
-    <parameter name="passwordIV" value="Hameed123"/>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="test.TestExecution">
         <methods>
           <include name="tearDown"/>
-          <include name="validateSignUpFunction" invocation-numbers="0"/>
-          <include name="validateSignInFunctionUsingPhNoWithInValidCredentials"/>
-          <include name="validateSignInFunctionUsingEmailWithInValidCredentials"/>
-          <include name="validateE2EBookingOneWay"/>
-          <include name="validateSignInFunctionUsingPhNo"/>
-          <include name="validateFieldsAvailability"/>
-          <include name="validateSearchFlightforOnewayTrip"/>
-          <include name="validateSearchFlightforRoundTrip"/>
-          <include name="validateChooseFlight"/>
           <include name="validateSignInFunctionUsingEmailWithValidCredentials"/>
           <include name="startUp"/>
-          <include name="validateE2EBookingRoundTrip"/>
-          <include name="validateSignInFunctionUsingPhNoWithValidCredentials"/>
-          <include name="validateSignInFunctionUsingEmail"/>
-          <include name="validateSignUpFunction2"/>
         </methods>
       </class> <!-- test.TestExecution -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

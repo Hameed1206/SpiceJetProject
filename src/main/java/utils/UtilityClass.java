@@ -32,6 +32,10 @@ public class UtilityClass {
 public static WebDriver driver;
 	
 	public static void launch(String browser) {
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--headless");
+		options.addArguments("--disable-gpu");
+		options.addArguments("--window-size=1920,1080");
 		if(browser.equals("Edge")) {
 		WebDriverManager.edgedriver().setup();
 		driver = new EdgeDriver();
