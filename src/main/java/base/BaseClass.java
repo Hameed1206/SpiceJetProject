@@ -9,7 +9,7 @@ public class BaseClass extends UtilityClass{
 
 	@BeforeMethod
 	public static void startUp() {
-		launch("FireFox");
+		launch("chrome");
 	}
 	@AfterMethod
 	 public static void tearDown() {
