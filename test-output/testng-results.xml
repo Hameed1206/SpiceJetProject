@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-12T12:30:05 IST" name="Suite" finished-at="2024-06-12T12:38:29 IST" duration-ms="504065">
+  <suite started-at="2024-06-12T23:00:42 IST" name="Suite" finished-at="2024-06-12T23:16:37 IST" duration-ms="955277">
     <groups>
     </groups>
-    <test started-at="2024-06-12T12:30:05 IST" name="Test" finished-at="2024-06-12T12:38:29 IST" duration-ms="504065">
-      <class name="test_execution_package.TestExecution">
-        <test-method is-config="true" signature="startUp()[pri:0, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:30:06 IST" name="startUp" finished-at="2024-06-12T12:30:13 IST" duration-ms="6243" status="PASS">
+    <test started-at="2024-06-12T23:00:42 IST" name="Test" finished-at="2024-06-12T23:16:37 IST" duration-ms="955277">
+      <class name="test.TestExecution">
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:00:43 IST" name="startUp" finished-at="2024-06-12T23:00:58 IST" duration-ms="15374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateSignUpFunction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:30:13 IST" name="validateSignUpFunction" data-provider="SignUp function" finished-at="2024-06-12T12:30:25 IST" duration-ms="12724" status="PASS">
+        <test-method signature="validateSignUpFunction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:00:58 IST" name="validateSignUpFunction" data-provider="SignUp function" finished-at="2024-06-12T23:01:02 IST" duration-ms="3750" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,11 +67,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSignUpFunction -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:30:25 IST" name="startUp" finished-at="2024-06-12T12:30:31 IST" duration-ms="5172" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:01:02 IST" name="tearDown" finished-at="2024-06-12T23:01:03 IST" duration-ms="1309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:01:03 IST" name="startUp" finished-at="2024-06-12T23:01:11 IST" duration-ms="7878" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateSignUpFunction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:30:31 IST" name="validateSignUpFunction" data-provider="SignUp function" finished-at="2024-06-12T12:30:43 IST" duration-ms="12219" status="PASS">
+        <test-method signature="validateSignUpFunction(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:01:11 IST" name="validateSignUpFunction" data-provider="SignUp function" finished-at="2024-06-12T23:01:15 IST" duration-ms="3825" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -127,11 +131,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSignUpFunction -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:30:43 IST" name="startUp" finished-at="2024-06-12T12:30:50 IST" duration-ms="6435" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:01:15 IST" name="tearDown" finished-at="2024-06-12T23:01:17 IST" duration-ms="1797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:01:17 IST" name="startUp" finished-at="2024-06-12T23:01:24 IST" duration-ms="6354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateSignUpFunction2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:30:50 IST" name="validateSignUpFunction2" data-provider="SignUp function" finished-at="2024-06-12T12:30:50 IST" duration-ms="329" status="PASS">
+        <test-method signature="validateSignUpFunction2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:01:24 IST" name="validateSignUpFunction2" data-provider="SignUp function" finished-at="2024-06-12T23:01:26 IST" duration-ms="2476" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -187,11 +195,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSignUpFunction2 -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:30:50 IST" name="startUp" finished-at="2024-06-12T12:30:55 IST" duration-ms="5433" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:01:26 IST" name="tearDown" finished-at="2024-06-12T23:01:27 IST" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:01:27 IST" name="startUp" finished-at="2024-06-12T23:01:44 IST" duration-ms="16754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateSignUpFunction2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:30:55 IST" name="validateSignUpFunction2" data-provider="SignUp function" finished-at="2024-06-12T12:31:08 IST" duration-ms="12285" status="PASS">
+        <test-method signature="validateSignUpFunction2(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:01:44 IST" name="validateSignUpFunction2" data-provider="SignUp function" finished-at="2024-06-12T23:01:48 IST" duration-ms="4376" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -247,11 +259,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSignUpFunction2 -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:31:08 IST" name="startUp" finished-at="2024-06-12T12:31:14 IST" duration-ms="6701" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:01:48 IST" name="tearDown" finished-at="2024-06-12T23:01:49 IST" duration-ms="895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:01:49 IST" name="startUp" finished-at="2024-06-12T23:01:55 IST" duration-ms="5843" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateSignInFunctionUsingPhNoWithValidCredentials(java.lang.String,java.lang.String)[pri:3, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:31:14 IST" name="validateSignInFunctionUsingPhNoWithValidCredentials" finished-at="2024-06-12T12:31:55 IST" duration-ms="41188" status="PASS">
+        <test-method signature="validateSignInFunctionUsingPhNoWithValidCredentials(java.lang.String,java.lang.String)[pri:3, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:01:55 IST" name="validateSignInFunctionUsingPhNoWithValidCredentials" finished-at="2024-06-12T23:02:36 IST" duration-ms="41075" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -267,11 +283,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSignInFunctionUsingPhNoWithValidCredentials -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:31:55 IST" name="startUp" finished-at="2024-06-12T12:32:00 IST" duration-ms="4797" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:02:36 IST" name="tearDown" finished-at="2024-06-12T23:02:37 IST" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:02:37 IST" name="startUp" finished-at="2024-06-12T23:02:44 IST" duration-ms="6888" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateSignInFunctionUsingEmailWithValidCredentials(java.lang.String,java.lang.String)[pri:4, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:32:00 IST" name="validateSignInFunctionUsingEmailWithValidCredentials" finished-at="2024-06-12T12:32:42 IST" duration-ms="41535" status="PASS">
+        <test-method signature="validateSignInFunctionUsingEmailWithValidCredentials(java.lang.String,java.lang.String)[pri:4, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:02:44 IST" name="validateSignInFunctionUsingEmailWithValidCredentials" finished-at="2024-06-12T23:04:05 IST" duration-ms="81325" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -287,11 +307,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSignInFunctionUsingEmailWithValidCredentials -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:32:42 IST" name="startUp" finished-at="2024-06-12T12:32:47 IST" duration-ms="4916" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:04:05 IST" name="tearDown" finished-at="2024-06-12T23:04:06 IST" duration-ms="853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:04:06 IST" name="startUp" finished-at="2024-06-12T23:04:12 IST" duration-ms="6185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateSignInFunctionUsingPhNoWithInValidCredentials(java.lang.String,java.lang.String)[pri:5, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:32:47 IST" name="validateSignInFunctionUsingPhNoWithInValidCredentials" finished-at="2024-06-12T12:32:50 IST" duration-ms="3021" status="PASS">
+        <test-method signature="validateSignInFunctionUsingPhNoWithInValidCredentials(java.lang.String,java.lang.String)[pri:5, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:04:12 IST" name="validateSignInFunctionUsingPhNoWithInValidCredentials" finished-at="2024-06-12T23:04:14 IST" duration-ms="2100" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -307,11 +331,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSignInFunctionUsingPhNoWithInValidCredentials -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:32:50 IST" name="startUp" finished-at="2024-06-12T12:32:55 IST" duration-ms="4865" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:04:14 IST" name="tearDown" finished-at="2024-06-12T23:04:15 IST" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:04:15 IST" name="startUp" finished-at="2024-06-12T23:04:21 IST" duration-ms="5588" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateSignInFunctionUsingEmailWithInValidCredentials(java.lang.String,java.lang.String)[pri:6, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:32:55 IST" name="validateSignInFunctionUsingEmailWithInValidCredentials" finished-at="2024-06-12T12:32:58 IST" duration-ms="3683" status="PASS">
+        <test-method signature="validateSignInFunctionUsingEmailWithInValidCredentials(java.lang.String,java.lang.String)[pri:6, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:04:21 IST" name="validateSignInFunctionUsingEmailWithInValidCredentials" finished-at="2024-06-12T23:05:42 IST" duration-ms="81461" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -327,11 +355,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSignInFunctionUsingEmailWithInValidCredentials -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:32:59 IST" name="startUp" finished-at="2024-06-12T12:33:04 IST" duration-ms="5172" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:05:42 IST" name="tearDown" finished-at="2024-06-12T23:05:43 IST" duration-ms="938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:05:44 IST" name="startUp" finished-at="2024-06-12T23:05:52 IST" duration-ms="8583" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateSignInFunctionUsingPhNo(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:33:04 IST" name="validateSignInFunctionUsingPhNo" data-provider="SignIn with Phone No" finished-at="2024-06-12T12:33:45 IST" duration-ms="41024" status="PASS">
+        <test-method signature="validateSignInFunctionUsingPhNo(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:05:52 IST" name="validateSignInFunctionUsingPhNo" data-provider="SignIn with Phone No" finished-at="2024-06-12T23:06:33 IST" duration-ms="41131" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -352,11 +384,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSignInFunctionUsingPhNo -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:33:45 IST" name="startUp" finished-at="2024-06-12T12:33:50 IST" duration-ms="5063" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:06:33 IST" name="tearDown" finished-at="2024-06-12T23:06:34 IST" duration-ms="1056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:06:34 IST" name="startUp" finished-at="2024-06-12T23:06:41 IST" duration-ms="6217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateSignInFunctionUsingPhNo(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:33:50 IST" name="validateSignInFunctionUsingPhNo" data-provider="SignIn with Phone No" finished-at="2024-06-12T12:33:52 IST" duration-ms="2231" status="PASS">
+        <test-method signature="validateSignInFunctionUsingPhNo(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:06:41 IST" name="validateSignInFunctionUsingPhNo" data-provider="SignIn with Phone No" finished-at="2024-06-12T23:06:42 IST" duration-ms="1950" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -377,11 +413,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSignInFunctionUsingPhNo -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:33:52 IST" name="startUp" finished-at="2024-06-12T12:33:57 IST" duration-ms="5158" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:06:42 IST" name="tearDown" finished-at="2024-06-12T23:06:43 IST" duration-ms="860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:06:43 IST" name="startUp" finished-at="2024-06-12T23:06:49 IST" duration-ms="6000" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateSignInFunctionUsingPhNo(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:33:57 IST" name="validateSignInFunctionUsingPhNo" data-provider="SignIn with Phone No" finished-at="2024-06-12T12:34:00 IST" duration-ms="2515" status="PASS">
+        <test-method signature="validateSignInFunctionUsingPhNo(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:06:49 IST" name="validateSignInFunctionUsingPhNo" data-provider="SignIn with Phone No" finished-at="2024-06-12T23:06:51 IST" duration-ms="1975" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -402,11 +442,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSignInFunctionUsingPhNo -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:34:00 IST" name="startUp" finished-at="2024-06-12T12:34:05 IST" duration-ms="5535" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:06:51 IST" name="tearDown" finished-at="2024-06-12T23:06:52 IST" duration-ms="853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:06:52 IST" name="startUp" finished-at="2024-06-12T23:07:03 IST" duration-ms="10930" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateSignInFunctionUsingPhNo(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:34:05 IST" name="validateSignInFunctionUsingPhNo" data-provider="SignIn with Phone No" finished-at="2024-06-12T12:34:08 IST" duration-ms="2898" status="PASS">
+        <test-method signature="validateSignInFunctionUsingPhNo(java.lang.String,java.lang.String,java.lang.String)[pri:7, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:07:03 IST" name="validateSignInFunctionUsingPhNo" data-provider="SignIn with Phone No" finished-at="2024-06-12T23:07:05 IST" duration-ms="2245" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -427,11 +471,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSignInFunctionUsingPhNo -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:34:08 IST" name="startUp" finished-at="2024-06-12T12:34:15 IST" duration-ms="6456" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:07:05 IST" name="tearDown" finished-at="2024-06-12T23:07:07 IST" duration-ms="1752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:07:07 IST" name="startUp" finished-at="2024-06-12T23:07:16 IST" duration-ms="8881" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateSignInFunctionUsingEmail(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:34:15 IST" name="validateSignInFunctionUsingEmail" data-provider="SignIn with Email" finished-at="2024-06-12T12:34:57 IST" duration-ms="41649" status="PASS">
+        <test-method signature="validateSignInFunctionUsingEmail(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:07:16 IST" name="validateSignInFunctionUsingEmail" data-provider="SignIn with Email" finished-at="2024-06-12T23:08:38 IST" duration-ms="81360" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -452,11 +500,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSignInFunctionUsingEmail -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:34:57 IST" name="startUp" finished-at="2024-06-12T12:35:01 IST" duration-ms="4836" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:08:38 IST" name="tearDown" finished-at="2024-06-12T23:08:38 IST" duration-ms="935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:08:39 IST" name="startUp" finished-at="2024-06-12T23:08:45 IST" duration-ms="6103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateSignInFunctionUsingEmail(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:35:01 IST" name="validateSignInFunctionUsingEmail" data-provider="SignIn with Email" finished-at="2024-06-12T12:35:05 IST" duration-ms="3104" status="PASS">
+        <test-method signature="validateSignInFunctionUsingEmail(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:08:45 IST" name="validateSignInFunctionUsingEmail" data-provider="SignIn with Email" finished-at="2024-06-12T23:10:06 IST" duration-ms="81288" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -477,11 +529,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSignInFunctionUsingEmail -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:35:05 IST" name="startUp" finished-at="2024-06-12T12:35:10 IST" duration-ms="5477" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:10:06 IST" name="tearDown" finished-at="2024-06-12T23:10:07 IST" duration-ms="962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:10:07 IST" name="startUp" finished-at="2024-06-12T23:10:12 IST" duration-ms="5490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateSignInFunctionUsingEmail(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:35:10 IST" name="validateSignInFunctionUsingEmail" data-provider="SignIn with Email" finished-at="2024-06-12T12:35:13 IST" duration-ms="2591" status="PASS">
+        <test-method signature="validateSignInFunctionUsingEmail(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:10:12 IST" name="validateSignInFunctionUsingEmail" data-provider="SignIn with Email" finished-at="2024-06-12T23:11:34 IST" duration-ms="81332" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -502,11 +558,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSignInFunctionUsingEmail -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:35:13 IST" name="startUp" finished-at="2024-06-12T12:35:17 IST" duration-ms="4721" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:11:34 IST" name="tearDown" finished-at="2024-06-12T23:11:35 IST" duration-ms="849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:11:35 IST" name="startUp" finished-at="2024-06-12T23:11:42 IST" duration-ms="7111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateSignInFunctionUsingEmail(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:35:17 IST" name="validateSignInFunctionUsingEmail" data-provider="SignIn with Email" finished-at="2024-06-12T12:35:20 IST" duration-ms="2866" status="PASS">
+        <test-method signature="validateSignInFunctionUsingEmail(java.lang.String,java.lang.String,java.lang.String)[pri:8, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:11:42 IST" name="validateSignInFunctionUsingEmail" data-provider="SignIn with Email" finished-at="2024-06-12T23:13:03 IST" duration-ms="81307" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -527,43 +587,63 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSignInFunctionUsingEmail -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:35:20 IST" name="startUp" finished-at="2024-06-12T12:35:25 IST" duration-ms="5001" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:13:03 IST" name="tearDown" finished-at="2024-06-12T23:13:04 IST" duration-ms="890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:13:04 IST" name="startUp" finished-at="2024-06-12T23:13:10 IST" duration-ms="6321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateFieldsAvailability()[pri:9, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:35:25 IST" name="validateFieldsAvailability" finished-at="2024-06-12T12:35:26 IST" duration-ms="397" status="PASS">
+        <test-method signature="validateFieldsAvailability()[pri:9, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:13:10 IST" name="validateFieldsAvailability" finished-at="2024-06-12T23:13:11 IST" duration-ms="385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFieldsAvailability -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:35:26 IST" name="startUp" finished-at="2024-06-12T12:35:30 IST" duration-ms="4324" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:13:11 IST" name="tearDown" finished-at="2024-06-12T23:13:11 IST" duration-ms="854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:13:11 IST" name="startUp" finished-at="2024-06-12T23:13:17 IST" duration-ms="5795" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateSearchFlightforOnewayTrip()[pri:10, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:35:30 IST" name="validateSearchFlightforOnewayTrip" finished-at="2024-06-12T12:35:34 IST" duration-ms="4005" status="PASS">
+        <test-method signature="validateSearchFlightforOnewayTrip()[pri:10, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:13:17 IST" name="validateSearchFlightforOnewayTrip" finished-at="2024-06-12T23:13:22 IST" duration-ms="4764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSearchFlightforOnewayTrip -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:35:34 IST" name="startUp" finished-at="2024-06-12T12:35:39 IST" duration-ms="4609" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:13:22 IST" name="tearDown" finished-at="2024-06-12T23:13:23 IST" duration-ms="1053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:13:23 IST" name="startUp" finished-at="2024-06-12T23:13:28 IST" duration-ms="5462" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateSearchFlightforRoundTrip()[pri:11, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:35:39 IST" name="validateSearchFlightforRoundTrip" finished-at="2024-06-12T12:35:44 IST" duration-ms="5484" status="PASS">
+        <test-method signature="validateSearchFlightforRoundTrip()[pri:11, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:13:28 IST" name="validateSearchFlightforRoundTrip" finished-at="2024-06-12T23:13:33 IST" duration-ms="4792" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSearchFlightforRoundTrip -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:35:44 IST" name="startUp" finished-at="2024-06-12T12:35:49 IST" duration-ms="4960" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:13:33 IST" name="tearDown" finished-at="2024-06-12T23:13:34 IST" duration-ms="912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:13:34 IST" name="startUp" finished-at="2024-06-12T23:13:40 IST" duration-ms="5711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="validateChooseFlight()[pri:12, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:35:49 IST" name="validateChooseFlight" finished-at="2024-06-12T12:35:57 IST" duration-ms="8225" status="PASS">
+        <test-method signature="validateChooseFlight()[pri:12, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:13:40 IST" name="validateChooseFlight" finished-at="2024-06-12T23:14:03 IST" duration-ms="23590" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateChooseFlight -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:35:57 IST" name="startUp" finished-at="2024-06-12T12:36:02 IST" duration-ms="4920" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:14:03 IST" name="tearDown" finished-at="2024-06-12T23:14:04 IST" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:14:04 IST" name="startUp" finished-at="2024-06-12T23:14:10 IST" duration-ms="5926" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="registration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:13, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:36:02 IST" name="registration" data-provider="Booking Details" finished-at="2024-06-12T12:37:11 IST" duration-ms="69037" status="PASS">
+        <test-method signature="validateE2EBookingOneWay(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:13, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:14:10 IST" name="validateE2EBookingOneWay" data-provider="Booking Details" finished-at="2024-06-12T23:15:31 IST" duration-ms="81008" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -607,7 +687,7 @@
             </param>
             <param index="8">
               <value>
-                <![CDATA[Fiji]]>
+                <![CDATA[Qatar]]>
               </value>
             </param>
             <param index="9">
@@ -638,12 +718,16 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method is-config="true" signature="startUp()[pri:0, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:37:11 IST" name="startUp" finished-at="2024-06-12T12:37:17 IST" duration-ms="5715" status="PASS">
+        </test-method> <!-- validateE2EBookingOneWay -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:15:31 IST" name="tearDown" finished-at="2024-06-12T23:15:32 IST" duration-ms="1053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startUp()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:15:33 IST" name="startUp" finished-at="2024-06-12T23:15:39 IST" duration-ms="6221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method signature="registration1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:14, instance:test_execution_package.TestExecution@385c9627]" started-at="2024-06-12T12:37:17 IST" name="registration1" data-provider="Booking Details" finished-at="2024-06-12T12:38:29 IST" duration-ms="72225" status="PASS">
+        <test-method signature="validateE2EBookingRoundTrip(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:14, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:15:39 IST" name="validateE2EBookingRoundTrip" data-provider="Booking Details" finished-at="2024-06-12T23:16:36 IST" duration-ms="57380" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -687,7 +771,7 @@
             </param>
             <param index="8">
               <value>
-                <![CDATA[Fiji]]>
+                <![CDATA[Qatar]]>
               </value>
             </param>
             <param index="9">
@@ -718,8 +802,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registration1 -->
-      </class> <!-- test_execution_package.TestExecution -->
+        </test-method> <!-- validateE2EBookingRoundTrip -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.TestExecution@15d49048]" started-at="2024-06-12T23:16:36 IST" name="tearDown" finished-at="2024-06-12T23:16:37 IST" duration-ms="993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestExecution -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

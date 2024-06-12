@@ -9,16 +9,26 @@
     <parameter name="emailV" value="testingmehameed@gmail.com"/>
     <parameter name="passwordIV" value="Hameed123"/>
     <classes>
-      <class name="test_execution_package.TestExecution">
+      <class name="test.TestExecution">
         <methods>
-          <include name="validateSignUpFunction2" invocation-numbers="0 1"/>
-          <include name="registration" invocation-numbers="0"/>
-          <include name="startUp"/>
+          <include name="tearDown"/>
+          <include name="validateSignUpFunction" invocation-numbers="0"/>
+          <include name="validateSignInFunctionUsingPhNoWithInValidCredentials"/>
+          <include name="validateSignInFunctionUsingEmailWithInValidCredentials"/>
+          <include name="validateE2EBookingOneWay"/>
+          <include name="validateSignInFunctionUsingPhNo"/>
+          <include name="validateFieldsAvailability"/>
+          <include name="validateSearchFlightforOnewayTrip"/>
+          <include name="validateSearchFlightforRoundTrip"/>
           <include name="validateChooseFlight"/>
-          <include name="registration1" invocation-numbers="0"/>
-          <include name="validateSignUpFunction" invocation-numbers="0 1"/>
+          <include name="validateSignInFunctionUsingEmailWithValidCredentials"/>
+          <include name="startUp"/>
+          <include name="validateE2EBookingRoundTrip"/>
+          <include name="validateSignInFunctionUsingPhNoWithValidCredentials"/>
+          <include name="validateSignInFunctionUsingEmail"/>
+          <include name="validateSignUpFunction2"/>
         </methods>
-      </class> <!-- test_execution_package.TestExecution -->
+      </class> <!-- test.TestExecution -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

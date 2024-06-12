@@ -9,7 +9,7 @@
 	<parameter name="passwordV" value="Hameed@12"></parameter>
 	<parameter name="passwordIV" value="Hameed123"></parameter>
     <classes>
-      <class name="test_execution_package.TestExecution"/>
+      <class name="test.TestExecution"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
