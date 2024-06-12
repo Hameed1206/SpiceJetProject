@@ -81,6 +81,7 @@ public class Homepage extends BaseClass{
 		return new SignUpPage(driver);
 	}
 	
+	//login scenario
 	public Homepage getLoginLink() {
 		loginLink.click();
 		return this;
@@ -120,7 +121,7 @@ public class Homepage extends BaseClass{
 			return userName;
 		}
 	}
-	
+	// field availability check
 	public Homepage getCheckInLink() {
 		Assert.assertTrue(checkInLink.isDisplayed(), "Check In field is not displayed");
 		Assert.assertTrue(checkInLink.isEnabled(), "Check In field is not enabled");
@@ -140,6 +141,7 @@ public class Homepage extends BaseClass{
 		return this;
 	}
 
+	//Flight checking
 	public Homepage getRoundTrip() {
 		roundTrip.click();
 		return this;

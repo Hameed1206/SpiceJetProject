@@ -61,7 +61,7 @@ public class PaymentPage extends BaseClass{
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-
+    // fill card details and proceed
 	public PaymentPage getCardNo(String cardno, String name) {
 		driver.switchTo().frame(frame1);
 		cardNo.sendKeys(cardno);

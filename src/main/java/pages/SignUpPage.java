@@ -48,7 +48,7 @@ public class SignUpPage extends BaseClass {
 	
 	@FindBy (id = "defaultCheck1")
 	WebElement tncClick;
-	////div[contains(@class , 'register-form')]/div[7]/div[1]
+
 	@FindBy (xpath = "//div[@class='container']/div[2]/div/div[1]/div[7]/div[1]/a/button")
 	WebElement submitBtn;
 	
@@ -56,31 +56,27 @@ public class SignUpPage extends BaseClass {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	
+	//SignUp page fill form
 	public SignUpPage getNameTitle(String title) {
 		explicitWait(nameTitle);
 		selectFromDropDown(nameTitle, title);
 		return this;
 	}
-
 	public SignUpPage getfName(String fname) {
 		explicitWait(fName);
 		fName.sendKeys(fname);
 		return this;
 	}
-
 	public SignUpPage getlName(String lname) {
 		explicitWait(lName);
 		lName.sendKeys(lname);
 		return this;
 	}
-
 	public SignUpPage getCountry(String countryName) {
 		explicitWait(country);
 		selectFromDropDown(country, countryName);
 		return this;
 	}
-
 	public SignUpPage getDob(String month, String year, String date) {
 		explicitWait(dob);
 		dob.click();
@@ -90,27 +86,23 @@ public class SignUpPage extends BaseClass {
 		driver.findElement(By.xpath("//div[text() = '"+date+"']")).click();	
 		return this;
 	}
-
 	public SignUpPage getPhNo(String phone) {
 		explicitWait(phNo);
 		phNo.sendKeys(phone);
 		return this;
 	}
-
 	public SignUpPage getEmail(String emailID) {
 		explicitWait(email);
 		moveToParticularElement(email);
 		email.sendKeys(emailID);
 		return this;
 	}
-
 	public SignUpPage getPassword(String pass) {
 		explicitWait(password);
 		password.sendKeys(pass);
 		cPassword.sendKeys(pass);
 		return this;
 	}
-
 	public SignUpPage getSubmitBtn() throws InterruptedException {
 		moveToParticularElement(tncClick);
 		tncClick.click();
@@ -118,8 +110,4 @@ public class SignUpPage extends BaseClass {
 		submitBtn.click();
 		return this;
 	}
-	
-	
-	
-	
 }

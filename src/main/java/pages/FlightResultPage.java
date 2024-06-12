@@ -12,7 +12,7 @@ import base.BaseClass;
 
 public class FlightResultPage extends BaseClass{
  
-	//By changing this index we can cutomize xpath to choose different options  
+	                                 //By changing this index we can cutomize xpath to choose different options  
 	                                        //2-onwardFlight/3-return    flight1/2       which seat type1/2/3
 	                             //                         |                |                    |
 	//  //div[@id='main-container']/div/div[1]/div[6]/div[2...]/div[5]/div[1...]/div/div[2]/div[3....]/div/div/div

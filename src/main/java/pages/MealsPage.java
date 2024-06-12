@@ -11,9 +11,9 @@ public class MealsPage extends BaseClass{
 
 	@FindBy (xpath = "//div[text() ='Done']/parent::div")
 	WebElement doneBtn;
-//(//div[contains(text() , 'DINNER')])[2]/ancestor::div[2]/following-sibling::div[1]//div[contains(text(),'Chicken')]
+
 	@FindBy(xpath = "(//div[@data-testid='meals-filter'])[2]/ancestor::div[4]/div[2]/div[1]/div/div[2]/div/div/div/div[1]/div")
-	WebElement chickenDinner;
+	WebElement meals;
 	
 	
 	public MealsPage(WebDriver driver) {
@@ -21,7 +21,7 @@ public class MealsPage extends BaseClass{
 		PageFactory.initElements(driver, this);
 	}
 	public MealsPage getChickenDinner() {
-		chickenDinner.click();
+		meals.click();
 		return this;
 	}
 	public BookSeat getDoneBtn() {

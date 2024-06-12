@@ -91,7 +91,7 @@ public class TestExecution extends BaseClass{
 		snap.log(Status.PASS, "Validate Sign Up Function");
 		extent.flush();
 	}
-	                                          //Positive Scenario Validate Sign In Function Using Phone no
+	                                   //Positive Scenario Validate Sign In Function Using Phone no
 	@Parameters({"phoneNoV","passwordV"})
 	@Test(priority = 3)
 	public void validateSignInFunctionUsingPhNoWithValidCredentials(String s1, String s2) throws IOException {
@@ -111,7 +111,7 @@ public class TestExecution extends BaseClass{
 		snap.log(Status.PASS, loginResult+" logged in successfully");
 		extent.flush();
 	}
-	                                          //Positive Scenario Validate Sign In Function Using Email
+	                                  //Positive Scenario Validate Sign In Function Using Email
 	@Parameters({"emailV","passwordV"})
 	@Test(priority = 4)
 	public void validateSignInFunctionUsingEmailWithValidCredentials(String s1, String s2) throws IOException {
@@ -151,7 +151,7 @@ public class TestExecution extends BaseClass{
 		snap.log(Status.PASS, loginResult);
 		extent.flush();
 	}
-	                                    //Negative Scenario Validate Sign In Function Using Email
+	                                //Negative Scenario Validate Sign In Function Using Email
 	@Parameters({"emailIV","passwordIV"})
 	@Test(priority = 6)
 	public void validateSignInFunctionUsingEmailWithInValidCredentials(String s1, String s2) throws IOException {
@@ -171,7 +171,7 @@ public class TestExecution extends BaseClass{
 		snap.log(Status.PASS, loginResult);
 		extent.flush();
 	}	
-	                                 //Validating Sign In function using decision table technique
+	                              //Validating Sign In function using decision table technique
 	@Test(dataProvider = "SignIn with Phone No" ,priority = 7)
 	public void validateSignInFunctionUsingPhNo(String s1, String s2, String s3) throws IOException {
 		Homepage hPage = new Homepage(driver);
