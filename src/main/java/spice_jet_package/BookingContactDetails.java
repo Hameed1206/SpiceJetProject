@@ -33,8 +33,49 @@ public class BookingContactDetails extends BaseClass {
 	@FindBy (xpath = "//div[contains(text() , 'Mobile Number')]/parent::div/following-sibling::div/input")
 	WebElement passengerPhNo;
 	
+	@FindBy (xpath = "//div[@data-testid='traveller-info-continue-cta']")
+	WebElement continueButton;
+	
 	public BookingContactDetails(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
+
+	public BookingContactDetails getContactFName(String fname) {
+		contactFName.sendKeys(fname);
+		return this;
+	}
+	public BookingContactDetails getContactLName(String lname) {
+		contactLName.sendKeys(lname);
+		return this;
+	}
+	public BookingContactDetails getContactNo(String phone) {
+		contactNo.sendKeys(phone);
+		return this;
+	}
+	public BookingContactDetails getEmailID(String email) {
+		emailID.sendKeys(email);
+		return this;
+	}
+	public BookingContactDetails getCityName(String city) {
+		cityName.sendKeys(city);
+		return this;
+	}
+	public BookingContactDetails getPassengerFName(String pFname) {
+		passengerFName.sendKeys(pFname);
+		return this;
+	}
+	public BookingContactDetails getPassengerLName(String pLname) {
+		passengerLName.sendKeys(pLname);
+		return this;
+	}
+	public BookingContactDetails getPassengerPhNo(String pPhone) {
+		passengerPhNo.sendKeys(pPhone);
+		return this;
+	}
+	public BookSeat getContinueButton() {
+		continueButton.click();
+		return new BookSeat(driver);
+	}
+	
 }

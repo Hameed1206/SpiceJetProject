@@ -1,10 +1,13 @@
 package helper_package;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Set;
 
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -12,6 +15,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -19,14 +24,28 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.google.common.io.Files;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class UtilityClass {
 
 public static WebDriver driver;
 	
 	public static void launch() {
-		ChromeOptions options = new ChromeOptions();
-        options.setExperimentalOption("prefs", java.util.Collections.singletonMap("profile.default_content_setting_values.javascript", 1));
-		driver = new ChromeDriver(options);
+		driver = new ChromeDriver();
+		driver.get("https://www.spicejet.com/");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));	
+	}
+	public static void launchEdge() {
+		WebDriverManager.edgedriver().setup();
+		driver = new EdgeDriver();
+		driver.get("https://www.spicejet.com/");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));	
+	}
+	public static void launchFireFox() {
+		WebDriverManager.firefoxdriver().setup();
+		driver = new FirefoxDriver();
 		driver.get("https://www.spicejet.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));	
@@ -51,11 +70,22 @@ public static WebDriver driver;
 		Actions a = new Actions(driver);
 		a.moveToElement(element).build().perform();
 	}
-	public static void captureScreenshot() throws IOException {
+	public static XSSFSheet readValueFromExcel(String sheetName) throws IOException {
+		FileInputStream fis = new FileInputStream("C:\\Users\\91936\\eclipse-workspace\\Spice_Jet\\ExcelFile\\Spice_Jet_App_Testing.xlsx");
+		XSSFWorkbook wBook = new XSSFWorkbook(fis);
+		XSSFSheet sheet = wBook.getSheet(sheetName);
+		return sheet;
+	}
+	public static String captureScreenshot() throws IOException {
 		TakesScreenshot tk = (TakesScreenshot)driver;
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 		File file = tk.getScreenshotAs(OutputType.FILE);
-		File path = new File("C:\\Users\\91936\\eclipse-workspace\\Spice_Jet\\target\\snap.jpg");
+		long timeMillis = System.currentTimeMillis();
+		String title = driver.getTitle();
+		String snapPath = "C:\\Users\\91936\\eclipse-workspace\\Best_Buy\\target\\"+timeMillis+".jpg";
+		File path = new File(snapPath);
 		Files.copy(file, path);
+		return snapPath;
 	}
 	public void javaScriptSendkeys(WebElement refName, String value) {
 		JavascriptExecutor jks = (JavascriptExecutor) driver;
@@ -64,7 +94,7 @@ public static WebDriver driver;
 	}
 	public void javaScriptClick(WebElement refName) {
 		JavascriptExecutor jks = (JavascriptExecutor) driver;
-		jks.executeScript("arguments[0].click;", refName);
+		jks.executeScript("arguments[0].click();", refName);
 	}
 	public static void JavaScriptExecutorScrollDown(WebElement element) {
 		 JavascriptExecutor js = (JavascriptExecutor)driver;

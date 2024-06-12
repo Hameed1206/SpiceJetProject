@@ -6,7 +6,7 @@ import helper_package.UtilityClass;
 
 public class BaseClass extends UtilityClass{
 
-	@BeforeMethod
+	@BeforeMethod(groups="smoke")
 	public static void startUp() {
 		launch();
 	}

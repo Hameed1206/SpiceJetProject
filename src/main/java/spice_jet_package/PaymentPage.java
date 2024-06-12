@@ -42,7 +42,7 @@ public class PaymentPage extends BaseClass{
 	@FindBy (id = "security_code")
 	WebElement cvvNo;
 	
-	@FindBy (xpath = "//div[text()='Proceed to pay']")
+	@FindBy (xpath = "//div[@data-testid='common-proceed-to-pay']")
 	WebElement proceedPayment;
 	
 	@FindBy (xpath = "//div[text() = 'Payment Failed']")
@@ -51,8 +51,53 @@ public class PaymentPage extends BaseClass{
 	@FindBy (xpath = "//div[text() = 'Payment Failed']//following-sibling::div")
 	WebElement errorMsg2;
 	
+	@FindBy (xpath = "//div[contains(text() , 'Sorry!')]/parent::div/preceding-sibling::div/div")
+	WebElement errorMsg3;
+	
+	@FindBy (xpath = "//div[contains(text() , 'Sorry!')]")
+	WebElement errorMsg4;
+	
 	public PaymentPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
+
+	public PaymentPage getCardNo(String cardno, String name) {
+		driver.switchTo().frame(frame1);
+		cardNo.sendKeys(cardno);
+		driver.switchTo().defaultContent();
+		
+		driver.switchTo().frame(frame2);
+		cardName.sendKeys(name);
+		driver.switchTo().defaultContent();
+		return this;
+	}
+	public PaymentPage getExpMonth(String month, String year) {
+		driver.switchTo().frame(frame3);
+		expMonth.sendKeys(month);
+		driver.switchTo().defaultContent();
+		
+		driver.switchTo().frame(frame4);
+		expYear.sendKeys(year);
+		driver.switchTo().defaultContent();
+		return this;
+	}
+	public PaymentPage getCvvNo(String cvv) {
+		driver.switchTo().frame(frame5);
+		cvvNo.sendKeys(cvv);
+		driver.switchTo().defaultContent();
+		return this;
+	}
+	public PaymentPage getProceedPayment() {
+		proceedPayment.click();
+		try {
+			System.out.println(errorMsg1.getText());
+			System.out.println(errorMsg2.getText());
+		} catch (Exception e) {
+			System.out.println(errorMsg3.getText());
+			System.out.println(errorMsg4.getText());
+		}
+		return this;
+	}
+	
 }
